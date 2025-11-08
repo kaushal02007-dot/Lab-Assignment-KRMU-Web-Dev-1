@@ -1,4 +1,5 @@
   **Lab2- EXTERNAL CSS STYLING** 
+  
 **OVERVIEW**
 This lab focuses on applying external CSS to enhance the visual presentation and structure of the html file created in Lab 1.
 The goal is to focus on using different CSS selectors,the box-model,typography, and positioning techniques.
