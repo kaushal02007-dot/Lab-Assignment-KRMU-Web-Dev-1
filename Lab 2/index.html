@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="top">My Portfolio</h1>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#skills"> Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="about">About Me</h2>
+            <br>
+                <img src="/Lab2/profilephoto.jpg " alt="Profile Picture">
+            <p>Hello! I am Kaushal a passionate web development learner exploring the world of Coding and Design.
+                <br>This is my personal portfolio website,here you will find my Projects,Skills and Journey.
+            </p>
+        </section>
+        <hr>
+        <section>
+            <h2 id="skills">My Skills</h2>
+            <table id="firstable">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Javasript</td>
+                    <td>Learning</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section>
+            <h2 id="projects">My Projects</h2>
+            <div class="project">
+                <b>Portfolio Website</b>
+                <br>
+                <br>
+                A simple HTML based one page website.
+            </div>
+            <div class="project">
+                <b>Registration Form</b>
+                <br>
+                <br>
+                A detailed registration form with labels and input fields.
+            </div>
+            <div class="project">
+                <b>Semantic Blog Layout</b>
+                <br>
+                <br>
+                A blog layout using appropriate semantic html5 tags.
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 id="contact">Contact Me</h2>
+            <br>
+            <table id="secondtable">
+                <form>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" id="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" id="email" placeholder="Enter your Email"></td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td><textarea name="message" id="message" placeholder="Write your message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td id="send" colspan="2"><button type="submit">Send</button></td>
+                    </tr>
+                </form>
+            </table>
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <a id="tops" href="#top">Back to top</a>
+        <h4>"Building ideas into reality."</h4>
+    </footer>
+
+</body>
+
+</html>
