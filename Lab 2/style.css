@@ -1,0 +1,124 @@
+/*Body styles*/
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+}
+
+/*header styles*/
+header {
+    background-color: #0000ff;
+    color: #ffffff;
+    box-sizing: content-box;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/*navigation styles*/
+.nav {
+    padding: 10px 0px 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px 10px 10px;
+}
+
+a:hover {
+    color: #000000;
+    background-color: #ddd8d8;
+}
+
+/*horizontal line styles*/
+hr {
+    border: 1px solid #0000ff;
+    box-shadow: 0 0 10px 3px #7fb7fb;
+}
+
+/*image styles*/
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 10px 10px 5px #504f4f;
+}
+
+/*skills table styles*/
+#firstable {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border: 2px solid #0000ff;
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 10px 80px 10px 80px;
+}
+
+td {
+    border: 2px solid #0000ff;
+    padding: 10px 80px 10px 80px;
+}
+
+/*projects boxes styles*/
+.project {
+    text-align: center;
+    border: 2px solid #504f4f;
+    box-shadow: 5px 5px 2px #504f4f;
+    margin: 10px;
+    padding: 20px;
+    height: 60px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*styles for table storing form*/
+#secondtable {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*send button styles*/
+button {
+
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 5px 60px 5px 60px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #7fb7fb;
+    color: #000000;
+
+}
+
+#send {
+    text-align: center;
+}
+
+/*footer styles*/
+#tops {
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 10px 60px 10px 60px;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+#tops:hover {
+    background-color: #7fb7fb;
+    color: #000000;
+}
+
+h4 {
+    text-align: left;
+}
