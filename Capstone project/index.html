@@ -1,1 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FinPay — Smart Payments for Businesses</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <header class="site-header hero-media" role="banner">
+    <div class="container nav">
+      <a class="logo" id="heading" href="/" aria-label="FinPay home">Payflex</a>
+
+      <nav class="primary-nav" role="navigation" aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#newsletter" class="btn btn-secondary small-btn">Login</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu"
+          onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true')">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero container" id="home" aria-labelledby="hero-heading">
+      <div class="hero-text">
+        <h1 id="hero-heading top">Smart Payments. Simplified for Your Business.</h1>
+        <p id="intro">Send, receive, and manage your finances in one secure dashboard. Trusted by businesses worldwide.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#trial">Start Free Trial</a>
+          <a class="btn btn-secondary" href="#demo">See Demo</a>
+        </div>
+      </div>
+
+      <div class="hero-media" aria-hidden="true">
+        <img src="/graphs.png"
+          alt="FinPay dashboard mockup showing charts and recent transactions for business analytics.">
+      </div>
+    </section>
+
+
+    <section class="trust container" aria-label="Trusted by">
+      <ul class="trust-list">
+        <li class="hero-media"><img src="/visa_logo.png" alt="Visa logo"></li>
+        <li class="hero-media"><img src="/mastercard_logo.png" alt="Mastercard logo"></li>
+        <li class="hero-media"><img src="/payPal_logo.png" alt="PayPal logo"></li>
+        <li class="hero-media"><img src="/Acme_crop_logo.png" alt="Acme Corp logo"></li>
+      </ul>
+    </section>
+
+
+    <section class="container" id="features">
+      <h2 class="section-title">Powerful Features</h2>
+      <div class="features-grid" role="list">
+        <article class="card" role="listitem">
+          <img class="icon-img" src="/secure_payment.png" alt="" aria-hidden="true">
+          <h3>Secure Payments</h3>
+          <p>End-to-end encryption, fraud protection, and compliance for all transactions.</p>
+        </article>
+
+        <article class="card" role="listitem">
+          <img class="icon-img" src="/fast_transfer.png" alt="" aria-hidden="true">
+          <h3>Fast Transfers</h3>
+          <p>Instant transfers and low fees so your business stays liquid.</p>
+        </article>
+
+        <article class="card" role="listitem">
+          <img class="icon-img" src="/analytics.png" alt="" aria-hidden="true">
+          <h3>Analytics</h3>
+          <p>Real-time dashboards that help you make data-driven decisions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container how-it-works" id="how" aria-labelledby="how-title">
+      <h2 id="how-title" class="section-title">How It Works</h2>
+
+      <div class="how-grid">
+        <div class="step">
+          <div class="step-bubble">1</div>
+          <h4>Sign Up</h4>
+          <p>Create an account then add your personal and business details.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-bubble">2</div>
+          <h4>Connect Accounts</h4>
+          <p>Link your bank and payment providers safely.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-bubble">3</div>
+          <h4>Start Transacting</h4>
+          <p>Send and receive payments, and monitor everything.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <h2 id="pricing-title" class="section-title">Simple Transparent Pricing</h2>
+
+        <div class="pricing-grid">
+          <div class="price-card">
+            <h3>Starter</h3>
+            <p class="price"><span class="currency">$</span>0 <span class="per">/mo</span></p>
+            <ul class="price-features">
+              <li>Basic Reporting</li>
+              <li>Up to 100 transactions</li>
+              <li>Email support</li>
+            </ul>
+            <a class="btn btn-secondary full-btn" href="#">Choose Starter</a>
+          </div>
+
+          <div class="price-card pro">
+            <h3>Pro</h3>
+            <p class="price"><span class="currency">$</span>29 <span class="per">/mo</span></p>
+            <ul class="price-features">
+              <li>Advanced analytics</li>
+              <li>Unlimited transactions</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-primary full-btn" href="#">Choose Pro</a>
+          </div>
+
+          <div class="price-card biz">
+            <h3>Business</h3>
+            <p class="price"><span class="currency">$</span>99 <span class="per">/mo</span></p>
+            <ul class="price-features">
+              <li>Dedicated account manager</li>
+              <li>Custom limits & SLAs</li>
+              <li>Phone & email support</li>
+            </ul>
+            <a class="btn btn-secondary full-btn" href="#">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <h2 id="testimonials-title" class="section-title">What our customers say</h2>
+
+      <div class="test-grid">
+        <blockquote class="testimonial">
+          <p>“FinPay transformed our billing — payouts are instant and reporting is a breeze.”</p>
+
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Excellent analytics and quick support. Our team loves it.”</p>
+
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Simple pricing and reliable transfers — exactly what we needed.”</p>
+
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="newsletter container" id="newsletter" aria-labelledby="newsletter-title">
+      <h2 id="newsletter-title" class="section-title">Stay updated</h2>
+      <p>Join our newsletter to get product updates and tips.</p>
+
+      <form class="newsletter-form" action="#" method="post" aria-label="Newsletter signup">
+        <label for="email" class="visually-hidden">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@company.com" required>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section class="container contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Get in touch</h2>
+
+      <form class="contact-form" action="#" method="post" aria-label="Contact form">
+        <div class="form-grid">
+          <label for="name">Name
+            <input id="name" name="name" type="text" placeholder="Your full name" required>
+          </label>
+
+          <label for="company">Company
+            <input id="company" name="company" type="text" placeholder="Company name">
+          </label>
+
+          <label for="email-contact">Email
+            <input id="email-contact" name="email" type="email" placeholder="you@company.com" required>
+          </label>
+
+          <label for="message">Message
+            <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+    <a href="#top" id="go_top">Go to Top</a>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div>
+        <h3>FinPay</h3>
+        <p>Your trusted payment partner.</p>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#support">Help Center</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#terms">Terms</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <p class="copyright">© <span id="year">2024</span> FinPay. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
