@@ -1,6 +1,8 @@
 **Fintech Landing Page – Responsive Website**  
 
-**_Theme_: Fintech (Financial Services Landing Page)** 
+**Theme: Fintech (Financial Services Landing Page)** 
+
+**CAPSTONE PROJECT**
 
 **Author: Kaushal**
 
